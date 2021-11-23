@@ -118,6 +118,33 @@ header .header-title {
     margin: 0px;
 }
 
+.text-image-grid.box {
+    display: flex;
+}
+
+.box {
+    display: flex;
+}
+
+div.text-box {
+    
+    border: 2px solid black;
+    padding: 100px 0px 100px 0px;
+}
+
+div.text-box p {
+    margin: 0px;
+    padding: 0px 50px 0px 50px;
+}
+
+div.text-box p:first-of-type {
+    font-weight:600;
+    font-size: 20px;
+}
+
+.box:nth-child(even) {
+    flex-direction: row-reverse;
+}
 
 
 
