@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e07dd4d69d.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <title>Businessta</title>
     </head>
@@ -24,21 +25,29 @@
                 <img class="bg-image" src="images/bg-masthead-min.jpg" alt="A picture of waves in the sea">
                 <div class="content">
                     <h1>Build a landing page for your business or project and generate more leads!</h1>
-                    <form action="">
-                        
-                    </form>
-                </div>
+                  
+                     </div>
+              
+              <form method="GET/POST" action="/register.php" name="registracija">            
+                    <input type="email" name="email" placeholder="Enter your e-mail...">
+                    <button type="submit" class="signupbutton">Sign Up!</button>
+                   </form>
+              
+               
             </section>
             <section class="icons-grid">
                 <div>
+                    <i class="fas fa-desktop"></i>
                     <p>Fully responsive</p>
                     <p>This theme will look great on any device no matter the size!</p>
                 </div>
                 <div>
+                    <i class="fas fa-layer-group"></i>
                     <p>Bootstrap 4 Ready</p>
                     <p>Featuring the latest build of the new Bootstrap 4 framework!</p>
                 </div>
                 <div>
+                    <i class="far fa-check-circle"></i>
                     <p>Easy to use</p>
                     <p>Ready to use with your own content or customezi the source files!</p>
                 </div>
@@ -50,7 +59,9 @@
                         <p>Fully responsive design</p>
                         <p>When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
                     </div>
-                    <div class="image-box">gggg</div>
+                    <div class="image-box">
+                       <img class="box-picture" src="images/bg-showcase-1-min.jpg" alt="A picture of a phone">
+                    </div>
                 </div>
 
                 <div class="box">
@@ -58,7 +69,9 @@
                         <p>Updated for Bootstrap 4</p>
                         <p>Newly impoved and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
                     </div>
-                    <div class="image-box">gggg</div>
+                    <div class="image-box">
+                        <img class="box-picture" src="images/bg-showcase-2-min.jpg" alt="A picture of desktop">
+                    </div>
                 </div>
 
                 <div class="box">
@@ -66,13 +79,62 @@
                         <p>Easy to use and customize</p>
                         <p>Landing page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
                     </div>
-                    <div class="image-box">gggg</div>
+                    <div class="image-box">
+                        <img class="box-picture" src="images/bg-showcase-3-min.jpg" alt="A picture of a baby">
+                    </div>
                 </div>
                 
             </section>
-            <section class="testimonials"></section>
-            <section class="hero small"></section>
+
+            <section class="testimonials">
+                <div>
+                    <img class="bottom-picture" src="images/testimonials-1-min.jpg" alt="A picture of a person">
+                    <p>Margaret E.</p>
+                    <p>"This is fantastic. Thanks so much guys!"</p>
+                </div>
+                <div>
+                    <img class="bottom-picture" src="images/testimonials-2-min.jpg" alt="A picture of a person">
+                    <p>Fred S.</p>
+                    <p>"Bootstrap is amazing. I've been using it to create lots of super nice landing pages!"</p>
+                </div>
+                <div>
+                    <img class="bottom-picture" src="images/testimonials-3-min.jpg" alt="A picture of a person">
+                    <p>Sarah W.</p>
+                    <p>"Thanks so much for making these free resources vailable to us"!</p>
+                </div>
+            </section>
+
+            <section class="hero small">
+               <img class="bg-image" src="images/bg-masthead-min.jpg" alt="A picture of waves in the sea">
+              <div class="content">
+                    <h3>Ready to get started. Sign up now!</h3>
+              <form method="GET/POST" action="/register.php" name="registracija">            
+                   
+                  <input type="email" name="email" placeholder="Enter your e-mail...">
+                   <button type="submit" class="signupbutton">Sign Up!</button>
+             </form>
+              </div>
+                
+              
+            </section>
         </main>
-        <footer></footer>
+        <footer>
+          <div class="link-section">
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Terms of Use</a></li>
+              <li><a href="">Privacy Policy</a></li>
+            </ul>
+            <p>ⒸYour website 2018. All rights reserved.</p>
+           
+          </div>
+          <div class="brand-icons">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </div>
+          
+        </footer>
     </body>
 </html>
